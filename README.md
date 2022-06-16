@@ -1,5 +1,21 @@
 # README
 
+## セットアップ方法
+- rbenvとnodenv(+ anyenv)がインストール済みであることを前提
+```
+rbenv install
+bundle install
+```
+```
+nodenv install
+npm install
+```
+
+- サーバー起動
+```
+bundle exec rails s
+```
+
 ## commit 方法
 
 - npm run commit
